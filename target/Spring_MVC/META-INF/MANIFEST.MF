@@ -2,4 +2,7 @@ Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
 Built-By: polli
 Build-Jdk: Oracle OpenJDK 23
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: ru.javamentor
+Main-Class: ${start-class}
 

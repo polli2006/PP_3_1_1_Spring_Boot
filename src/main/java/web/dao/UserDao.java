@@ -1,13 +1,7 @@
 package web.dao;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import web.model.User;
 
-import java.util.List;
-
-public interface UserDao {
-    User getUser(int id);
-    void deleteUser(int id);
-    void addUser(User user);
-    void updateUser(User user);
-    List<User> listUsers();
+public interface UserDao extends JpaRepository<User, Long> {
 }
